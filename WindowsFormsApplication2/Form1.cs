@@ -12,7 +12,7 @@ namespace WindowsFormsApplication2
 {
     public partial class Form1 : Form
     {
-        PaintPanel pp;
+        PaintPanel pp; //панель для отрисовки графика
         public Form1()
 
         {
@@ -24,11 +24,6 @@ namespace WindowsFormsApplication2
             panel2.Controls.Add(pp);
             pp.Dock = System.Windows.Forms.DockStyle.Fill;
             pp.Visible = false;
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -44,6 +39,7 @@ namespace WindowsFormsApplication2
             catch (Exception ex)
             {
                 //MessageBox("Неправильные коэффициенты");
+                
             }
             
 
